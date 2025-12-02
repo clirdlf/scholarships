@@ -1,0 +1,34 @@
+################
+# Scholarships
+################
+
+scholarship-contact-email: 'code4lib-scholarships@googlegroups.com'
+
+criteria:
+  # if you have this year's eligibility requirements, show criteria section on general-info/scholarships
+  show: true
+
+angel-fund:
+  show: false
+  # whether to show the "donation thermometer"
+  # NOTE: chart <iframe> needs to be added to angel-fund.html
+  thermometer: false
+  url:
+
+diversity-scholarship-applications:
+  show: false
+  url: '/general-info/scholarships#how-to-apply'
+  url-text: 'How to Apply'
+  end-day: 'Friday'
+  end-date: 'January 24th, 2026'
+  end-time: '11:59 PM PST'
+  notification-date: 'February 10th, 2026'
+  apply-url: 'https://docs.google.com/forms/d/e/1FAIpQLSeATjEPzfD2fXuDDLP-fdq9QQIgnCNx95My_mDimDL-8LDzRA/viewform'
+  committee-wiki-url: 'https://wiki.code4lib.org/2025_Scholarship_Documents'
+  max-scholarship-award: '1500'
+  max-international-award: '3000'
+
+# show sponsors for diversity scholarships on general-info/scholarships
+diversity-scholarship-sponsors:
+  seeking: true
+  show: true
