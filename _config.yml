@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
 
 minima:
+  hide_site_feed_link: true
   nav_pages:
     - title: "CLIR"
       url: "https://www.clir.org"
