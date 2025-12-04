@@ -19,18 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CLIR Scholarships
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CLIR provides scholarships to support and strengthen the communities it.
+  CLIR provides scholarships to support and strengthen its communities.
 baseurl: "/scholarships" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+author:
+  name: "CLIR"
+  email: ""
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  nav_pages:
+    - title: "CLIR"
+      url: "https://www.clir.org"
+  social_links:
+    - icon: "github"
+      url: "https://github.com/clirdlf/scholarships"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

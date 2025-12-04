@@ -1,3 +1,16 @@
+###################
+# "Global" Vars
+###################
+
+year: 2026
+location: 'Pittsburg, Pennsylvania'
+timezone: 'Eastern'
+search: false
+online-only-conference: false
+welcome-message:
+
+catchline:
+
 ################
 # Scholarships
 ################
@@ -9,14 +22,14 @@ criteria:
   show: true
 
 angel-fund:
-  show: false
+  show: true
   # whether to show the "donation thermometer"
   # NOTE: chart <iframe> needs to be added to angel-fund.html
   thermometer: false
   url:
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
   end-day: 'Friday'
@@ -24,7 +37,7 @@ diversity-scholarship-applications:
   end-time: '11:59 PM PST'
   notification-date: 'February 10th, 2026'
   apply-url: 'https://docs.google.com/forms/d/e/1FAIpQLSeATjEPzfD2fXuDDLP-fdq9QQIgnCNx95My_mDimDL-8LDzRA/viewform'
-  committee-wiki-url: 'https://wiki.code4lib.org/2025_Scholarship_Documents'
+  committee-wiki-url: 'https://wiki.code4lib.org/2026_Scholarship_Documents'
   max-scholarship-award: '1500'
   max-international-award: '3000'
 

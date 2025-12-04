@@ -37,8 +37,8 @@ subnav:
                 conf.yml file.
                 {% endcomment %}
                 {% if site.data.conf.diversity-scholarship-applications.show %}
-                <div class="row">
-                    <div class="card panel-default">
+                <div class="row p-3">
+                    <div class="card panel-default ">
                         <div class="card-body row">
                             <div class="col-8">
                                 Diversity Scholarship applications are being accepted through {{
@@ -47,7 +47,7 @@ subnav:
                                 {{site.data.conf.year}}.
                             </div>
                             <div class="col-3 pl-0">
-                                <a class="btn ct-btn-light btn-sm btn-block"
+                                <a class="btn btn-primary btn-lg btn-block"
                                     href="{{ site.data.conf.diversity-scholarship-applications.url }}">
                                     Apply
                                 </a>
@@ -127,7 +127,7 @@ subnav:
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h2>{{ year }} Code4Lib Scholarship Application</h2>
+                <h2 id="2026-code4lib-scholarship-application">{{ year }} Code4Lib Scholarship Application</h2>
                 <p>
                     The <a href="{{ site.data.conf.diversity-scholarship-applications.committee-wiki-url }}">{{
                         site.data.conf.year }}
